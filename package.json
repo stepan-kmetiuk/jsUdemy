@@ -1,0 +1,14 @@
+{
+  "name": "jsudemy",
+  "version": "1.0.0",
+  "description": "firstProject",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Angel Rokko",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.48.0"
+  }
+}
