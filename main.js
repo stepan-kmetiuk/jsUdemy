@@ -67,22 +67,71 @@
 
 'use strict';
 
-const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
+// const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
 
-const personalMovieDB = {
-  count: numberOfFilms,
-  movies: {},
-  actors: {},
-  genres: [],
-  privat: false,
-};
+// const personalMovieDB = {
+//   count: numberOfFilms,
+//   movies: {},
+//   actors: {},
+//   genres: [],
+//   privat: false,
+// };
 
-const a = prompt('Один из последних просмотренных фильмов?', ''),
-  b = prompt('На сколько оцените его?', ''),
-  c = prompt('Один из последних просмотренных фильмов?', ''),
-  d = prompt('На сколько оцените его?', '');
+// const a = prompt('Один из последних просмотренных фильмов?', ''),
+//   b = prompt('На сколько оцените его?', ''),
+//   c = prompt('Один из последних просмотренных фильмов?', ''),
+//   d = prompt('На сколько оцените его?', '');
 
-personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;
+// personalMovieDB.movies[a] = b;
+// personalMovieDB.movies[c] = d;
 
-console.log(personalMovieDB);
+// console.log(personalMovieDB);
+
+// let result = '';
+// const length = 7;
+
+// for (let i = 0; i < length; i++) {
+//   for (let j = 0; j < i; j++) {
+//     result += '*';
+//   }
+//   result += '\n';
+// }
+
+// console.log(result);
+
+// goup: for (let i = 0; i < 3; i++) {
+//   console.log(`first level : ${i}`);
+//   for (let j = 0; j < 3; j++){
+//     console.log(`second level : ${j}`);
+//     for (let k = 0; k < 6; k++){
+//       if (k === 5) break goup;
+//       console.log(`third level : ${k}`);
+//     }
+//   }
+// }
+
+// let i = 2;
+
+// while (i <= 16) {
+//   if (i % 2 !== 0) {
+//     console.log(i);
+//   }
+//   i++;
+// }
+
+// Место для первой задачи
+function firstTask() {
+  // Значения массива менять нельзя, тут он проверяется автоматически именно на эти значения
+  const arr = [3, 5, 8, 16, 20, 23, 50];
+  const result = [];
+
+  for (let i = 0; i <= arr.length; i++) {
+    result.push([i]);
+  }
+
+  // Пишем решение вот тут
+
+  // Не трогаем
+  return result;
+}
+function firstTask();
