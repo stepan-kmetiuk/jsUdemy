@@ -155,3 +155,23 @@
 //   }
 //   console.log(result)
 // }
+
+// const lines = 5;
+// let result = '';
+
+// Задача зірочкі!!!!
+
+// for (let i = 0; i <= lines; i++) {
+// 	console.log(`це перший цикл = ${i}`)
+// 	for (let j = 0; j < lines - i; j++) {
+// 		result += 'i`m j )';
+// 		console.log(`це другий цикл = ${j}`)
+// 	}
+// 	for (let j = 0; j < 2 * i + 1; j++) {
+// 		result += '*';
+// 		console.log(`third : ${j}`)
+// 	}
+// 	result += '\n';
+// }
+
+// console.log(result);
